@@ -114,7 +114,7 @@ app.component('save-button', {
     this.debouncedClick.cancel()
   },
   methods: {
-    click() {
+    debouncedClick() {
       // ... 响应点击 ...
     }
   },
